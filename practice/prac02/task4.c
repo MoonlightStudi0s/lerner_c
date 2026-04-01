@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int a;
+
+void main(){
+    scanf("%d", &a);
+    for(int i = 1; i<=a; i++){
+        if(i%5 == 0){
+            printf("%d ", i);
+        }
+    }
+}
